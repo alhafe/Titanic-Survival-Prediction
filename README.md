@@ -1,32 +1,24 @@
-# Titanic Customer Survival Analytics - Business Analyst Case Study
+# Titanic Survival Prediction - Data Analysis Project
 
-> From Data to Decision: Turning passenger data into customer insights, retention strategy, and a chatbot-ready service.
+### Project Overview
+End-to-end data analysis project to predict passenger survival using Python.
 
-### 1. Business Problem
-A shipping company wants to understand customer survival patterns to improve emergency planning and VIP prioritization. This case is identical to modern Customer Churn & Risk Analysis in Telecom and Banking.
+### What I Did
+- Data Cleaning & Handling Missing Values
+- Exploratory Data Analysis (EDA) with Visualizations
+- Feature Engineering (Age, Gender, Pclass)
+- Model Building: RandomForestClassifier
+- Model Evaluation: 81% Accuracy
 
-### 2. My Role as Business Analyst
-- Performed full EDA and Customer Segmentation (by Class, Gender, Age)
-- Defined KPIs: Survival Rate by Segment
-- Identified Key Drivers of survival
-- Built a prediction model to support real-time Customer Service decisions
+### Key Findings
+- Women had much higher survival rate than men
+- 1st Class passengers survived more than 3rd Class
+- Children had higher survival rate
 
-### 3. Key Insights & Business Recommendations
-- Female + 1st Class + Child = 97% Survival -> Highest Value Segment, prioritize in VIP service.
-- Male + 3rd Class = 14% Survival -> Highest Risk Segment, needs proactive support.
-- Recommendation: Use same logic for churn prevention. When high-risk customer contacts support, trigger retention offer via Chatbot.
+### Tools Used
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
 
-### 4. Solution & Chatbot Integration
-- Model: RandomForestClassifier | Accuracy: 81%
-- Deliverable: titanic-survival-prediction-model.pkl ready for API integration
-- Chatbot Flow: User asks "What is my chance?" -> Bot asks Age, Gender, Class -> Bot predicts + explains with business reason.
-
-### 5. Tech Stack
-Python, Pandas, Scikit-Learn, Seaborn, Matplotlib, Business Analysis, Customer Segmentation
-
-### 6. How to Run
+### How to Run
 pip install -r requirements.txt
 jupyter notebook Notebook/Titanic_Survival_Prediction.ipynb
 
----
-Author: Aspiring Business Analyst | Data Analyst | Customer Service Automation
