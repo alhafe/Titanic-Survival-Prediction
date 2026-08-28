@@ -19,6 +19,7 @@ End-to-end data analysis project to predict passenger survival using Python.
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
 
 ### How to Run
-pip install -r requirements.txt
+pip install -r requirements.txt.
+
 jupyter notebook Notebook/Titanic_Survival_Prediction.ipynb
 
